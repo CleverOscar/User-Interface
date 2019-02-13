@@ -126,6 +126,7 @@ button {
 	padding-bottom: 50px;
 	flex-wrap: wrap;
 	border-bottom: 1px solid black;
+	justify-content: space-around;
 
 }
 
@@ -157,4 +158,12 @@ button {
 	width: 200px;
 	border: 1px solid black;
 	padding: 20px;
+	background-color: #eaedf2;
+}
+
+button.learnMore {
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
 }
