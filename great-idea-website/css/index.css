@@ -1,6 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,154 +15,145 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+ height: 100%;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+ font-family: 'Bangers', cursive;
+ letter-spacing: 1px;
+ margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 .middle-img {
-	width: 100%;
+width: 100%;
 }
 
 .container {
-	max-width: 75%;
-	margin: 0 auto;
+max-width: 75%;
+margin: 0 auto;
 }
 
 .navbar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 40px;
-	margin-bottom: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 40px;
+margin-bottom: 50px;
 }
 
 .navbar a {
-	font-size: 24px;
-	color: gray;
-	text-decoration: none;
-	opacity: 0.7;
+font-size: 24px;
+color: gray;
+text-decoration: none;
+opacity: 0.7;
+}
+
+.logo {
+margin-left: 10px;
 }
 
 .header {
-	display: flex;
-	flex-direction: column;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	max-width: 100%;
-	height: 300px;
-	font-size: 100%;
-}
-
-.header img {
-    max-width: 100%;
-    max-height: 50%;
-		margin-bottom: 30px;
+text-align: center;
+border-bottom:  solid black 1px;
+padding-bottom: 70px;
 }
 
 .headerText{
-	width: 50%;
-	font-size: 75px;
-	text-align: center;
+width: 50%;
+font-size: 75px;
+display: inline-block;
 }
 
 
 button {
-	width: 150px;
-	border: black solid 1px;
-	font-size: 15px;
+width: 150px;
+border: black solid 1px;
+font-size: 15px;
 }
 
 .topSection {
-	display: flex;
-	flex-direction: row;
-	border-top: 1px solid black;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	flex-wrap: wrap;
-	border-bottom: 1px solid black;
-	justify-content: space-around;
+display: inline-inline-block;
+}
 
+.top-small-container {
+max-width: 49%;
+display: inline-block;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 1.2;
+}
+
+.right {
+margin-left: 13px;
 }
 
 .bottomSection {
-	display: flex;
-	margin-top: 50px;
-	border-bottom: 1px solid black;
-	padding-bottom: 50px;
+border-bottom: 1px solid black;
+margin-top: 40px;
+padding-bottom: 40px;
+}
+
+.bottom-small-container {
+width: 30%;
+display: inline-block;
+margin-right: 32px;
+line-height: 1.2;
 }
 
 .contact {
-	margin-top: 40px;
-	width: 20%;
+margin-top: 40px;
+width: 20%;
 }
 
 .contact p {
-	margin-top: 20px;
+margin-top: 20px;
 }
 
 .copyright {
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
 }
-
-/* Services Style code */
-
-.infoBox {
-	width: 200px;
-	border: 1px solid black;
-	padding: 20px;
-	background-color: #eaedf2;
-}
-
-button.learnMore {
-	margin-top: 20px;
-	width: 100px;
-	height: 50px;
-	border-radius: 20px;
+section p {
+	font-family: 'Staatliches', cursive;
 }
